@@ -1,0 +1,22 @@
+body {
+  background-color: #000;
+  color: gold;
+  font-family: monospace;
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  background-color: gold;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.miner-card {
+  border: 2px solid gold;
+  padding: 15px;
+  margin-top: 20px;
+}
