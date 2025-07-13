@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Miningraph Vault</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🔒 Vault: <span id="username">nepripojený</span></h1>
+  <button id="connectButton">🪙 Connect Wallet</button>
+  <p id="status">Wallet not connected</p>
+
+  <h2>🛒 Buy Miners</h2>
+  <div class="miner-card">
+    <h3>Gold Mainer</h3>
+    <p>Výťažnosť: 1 MAIN/h</p>
+    <p>Cena: 500 MAIN</p>
+    <button onclick="buyMiner()">Kúpiť</button>
+  </div>
+
+  <h2>⛏️ Claim Rewards</h2>
+  <button onclick="claim()">CLAIM</button>
+
+  <script src="main.js"></script>
+</body>
+</html>
